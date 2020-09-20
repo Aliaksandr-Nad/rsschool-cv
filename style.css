@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.title {
+  color: darkcyan;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: none;
+  margin-bottom: 35px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list__row {
+  padding: 5px 0;
+}
+
+.section {
+  margin-bottom: 54px;
+}
+
+.personal-photo {
+  float: right;
+  margin-right: 12%;
+  margin-top: 4%;
+  top: 50%;
+  height: 255px;
+  width: 255px;
+  object-fit: cover;
+  border-radius: 55%;
+  border: 2px double darkcyan;
+  box-shadow: 0px 0px 2px darkcyan;
+}
+
+.main-title {
+  color: #800000;
+  font-size: 55px;
+  font-style: normal;
+  letter-spacing: -3px;
+  margin: 55px 12% 2%;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+p {
+  padding: 3px 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #800000;
+  font-weight: normal;
+  padding: 5px 0;
+}
